@@ -226,7 +226,7 @@ def train(infer_z, noisy_y, C):
       trans_init = (C_init + alpha) / np.sum(C_init + alpha, axis=1, keepdims=True) 
 
       warming_up_step_1 = 20000
-      warming_up_step_2 = 1000000
+      warming_up_step_2 = 40000
       step = 0
       freq_step = 50000
 
